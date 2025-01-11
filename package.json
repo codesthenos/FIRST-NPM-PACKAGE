@@ -1,0 +1,20 @@
+{
+  "name": "codesthenos-first-npm-package",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/codesthenos/FIRST-NPM-PACKAGE#readme",
+  "bugs": {
+    "url": "https://github.com/codesthenos/FIRST-NPM-PACKAGE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesthenos/FIRST-NPM-PACKAGE.git"
+  },
+  "license": "ISC",
+  "author": "codesthenos - Guillermo Ruiz Arranz",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
