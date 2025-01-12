@@ -12,11 +12,18 @@
 
 ```html
 <todo-list title="TODO APP FROM NPM" button-label="DELETE DONE"></todo-list>
+<script
+  type="module"
+  src="https://cdn.skypack.dev/codesthenos-first-npm-package"
+></script>
+<!-- use the above script or one of these 2 variations
+OR
+<script type="module" src="./script.js"></script>
+
+OR
 <script type="module">
   import 'https://cdn.skypack.dev/codesthenos-first-npm-package'
 </script>
-<!--OR
-<script type="module" src="./script.js"></script>
 -->
 ```
 
