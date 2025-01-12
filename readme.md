@@ -4,15 +4,24 @@
 
 `npm i codesthenos-first-npm-package`
 
-## Uses ESModules
-
-## It has a simple function
+## It has a todo-list webcomponent
 
 ## How to use it
 
-```js
-import { codesthenosHello } from 'codesthenos-first-npm-package'
+1. Create an `index.html` that contains this:
 
-codesthenosHello({ name: 'Your name here' })
-// console logs a message
+```html
+<todo-list title="TODO APP FROM NPM" button-label="DELETE DONE"></todo-list>
+<script type="module">
+  import 'https://cdn.skypack.dev/codesthenos-first-npm-package'
+</script>
+<!--OR
+<script type="module" src="./script.js"></script>
+-->
+```
+
+2. If use the **OR** option, create a `script.js` with this:
+
+```js
+import './node_modules/codesthenos-first-npm-package/index.js'
 ```
